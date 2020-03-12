@@ -1,0 +1,121 @@
+.wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navBar {
+  position: fixed;
+  width: 100%;
+  height: 5%;
+
+  /* border: 2px solid crimson; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.leftNav {
+  display: flex;
+  /* flex-direction: row; */
+  /* position: absolute;
+  left: 10%; */
+  /* background-color: cyan; */
+  width: 15%;
+  align-items: center;
+  justify-content: space-around;
+  order: 1;
+  /* border: 2px solid crimson; */
+}
+
+.snc {
+  font-size: 16px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+
+.logoNav {
+  width: 15%;
+  justify-content: center;
+    /* background-color: darkgoldenrod; */
+    /* border: 2px solid crimson; */
+  display: flex;
+  align-items: center;
+  order: 2;
+    /* margin: 5px; */
+}
+
+.mainLogo {
+  width: 90%;
+  justify-content: center;
+  height: 80%;
+}
+
+.rightNav {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;
+    right: 10%; */
+    align-items: center;
+    order: 3;
+    /* border: 2px solid crimson; */
+    width: 12%;
+    justify-content: space-around;
+}
+
+.subscribe {
+  font-family: helvetica,arial,sans-serif;
+  height: 90%;
+  border: 0;
+  border-radius: 6px;
+  background-color: #567B95;
+  color: #FFFFF8;
+  font-weight: 400;
+  font-style: normal;
+  width: 60%;
+}
+
+.logIn {
+  font-family: helvetica,arial,sans-serif;
+  height: 90%;
+  border: 0;
+  border-radius: 6px;
+  background-color: #567B95;
+  color: #FFFFF8;
+  font-weight: 400;
+  font-style: normal;
+  width: 30%;
+}
+
+.mainBody {
+  display: block;
+  position: absolute;
+  top: 5%;
+  /* border: 2px solid crimson; */
+  width: 100%;
+  justify-content: center;
+}
+
+.ad {
+  margin-top: 0;
+  height: 200px;
+  background-color: #F7F7F7;
+  /* background-color: darkgreen; */
+  width: 100%;
+  text-align: center;
+}
+
+.adText {
+  font-size: small;
+  padding-top: 10px;
+}
+
+.mainHeading {
+  align-self: center;
+}
+
+.imgTitle {
+  padding: 20px;
+  text-align: center;
+}
