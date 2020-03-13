@@ -168,7 +168,7 @@ section {
   font-size: 0.8375rem;
 }
 
-.article {
+.articleHead {
   display: flex;
   flex-direction: column;
   width: 35%;
@@ -262,11 +262,38 @@ section {
   top: 20%;
   text-align: center;
   width: 20%;
-  border: 2px solid crimson;
+  /* border: 2px solid crimson; */
 }
 
 .commentCont {
   position: relative;
   display: inline-block;
-  border: 2px solid crimson;
+  /* border: 2px solid crimson; */
+}
+
+article {
+  font-family: georgia,'times new roman',times,serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.line {
+  width: 7%;
+  align-self: center;
+}
+
+.moreArt {
+  font-weight: bold;
+  line-height: 5px;
+  text-align: center;
+}
+
+.moreArt>:last-child {
+  font-weight: bold;
+  line-height: 5px;
+  text-align: center;
+  color: #326891;
 }
