@@ -613,7 +613,6 @@ p.spaceHeading {
   border-bottom: 1px solid rgb(153, 153, 153);
   width: 70%;
   margin: 0 15%;
-  
 }
 
 .footerHead {
@@ -667,10 +666,11 @@ a.pointHome {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 20%;
+  margin: 0 20% 2% 20%;
   /* border: 2px solid crimson; */
   color: rgb(153, 153, 153);
   font-size: 14px;
+  flex-wrap: wrap;
 }
 
 .footerBottom:hover {
@@ -700,22 +700,9 @@ a.pointHome {
   right: 15%;
 }
 
-/* .navBar {
-  position: fixed;
-  width: 100%;
-  height: 4%;
-  top: 0;
-  /* border: 2px solid crimson; */
-  /* display: flex;
-  justify-content: space-around;
-  padding-top: 5px;
-  z-index: 1;
-  background-color: white;
-} */
-
 .regPrompt {
-  /* display: grid;
-  grid-template-columns: 30% 30% 30%; */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
   position: fixed;
   bottom: 0;
   height: 5%;
