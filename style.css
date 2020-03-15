@@ -17,6 +17,9 @@
   background-color: white;
 }
 
+@media all and (max-width: 1500px)
+
+
 .leftNav {
   display: flex;
   /* flex-direction: row; */
@@ -59,6 +62,7 @@
 .rightNav {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     /* position: absolute;
     right: 10%; */
     align-items: center;
@@ -150,14 +154,13 @@ section {
 
 .inflation {
   position: relative;
-  left: 20%;
-  right: 20%;
+  align-self: center;
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: center; */
   flex-direction: column;
-  width: 60%;
+  width: 1000px;
   /* border: 2px solid greenyellow; */
-  height: 900px;
+  height: auto;
 }
 
 .subject {
@@ -184,17 +187,11 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   position: absolute;
-  top: 30%;
+  top: 32%;
   height: 15%;
-  /* border: 2px solid crimson; */
-}
-
-.TContent {
-  width: 80%;
-  justify-self: center;
-  height: 10%;
-  font-size: 100%;
-  /* background-color: greenyellow; */
+  width: 100%;
+  min-width: 600px;
+  /* min-height: 50px; */
   /* border: 2px solid crimson; */
 }
 
@@ -203,7 +200,9 @@ section {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* position: relative; */
   position: absolute;
-  top: 70%;
+  top: 72%;
+  width: 100%;
+  min-width: 600px;
   /* border: 2px solid crimson; */
   height: 15%;
 }
@@ -227,6 +226,19 @@ section {
   width: 100%;
   height: 100%;
   /* border: 2px solid crimson; */
+  min-width: 600px;
+}
+
+.TContent {
+  width: 95%;
+  min-width: 145px;
+  justify-self: flex-start;
+  height: 10vmax;
+  /* min-height: 130px; */
+  font-size: 14px;
+  /* background-color: greenyellow; */
+  /* border: 2px solid crimson; */
+  flex-wrap: wrap;
 }
 
 .mainImage {
@@ -252,7 +264,7 @@ section {
 .articleHead {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 700px;
   align-self: center;
   /* justify-content: center;
   align-items: center; */
@@ -276,6 +288,9 @@ section {
 .social {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  /* align-items: center; */
+  vertical-align: middle;
   /* border: 2px solid crimson; */
 }
 
@@ -300,59 +315,48 @@ section {
   text-align: center;
 }
 
-.fab.fa-facebook-f {
-  /* background-color: whitesmoke; */
-  border-radius: 50%;
+.fa-facebook-f {
   text-align: center;
   align-self: end;
   height: 30px;
   width: 30px;
-  /* border: 2px solid crimson; */
+  padding: 1px;
+  padding-right: 0;
 }
 
 .fa-twitter {
-  /* background-color: grey; */
-  border-radius: 50%;
   text-align: center;
-  align-self: center;
   align-self: end;
   height: 30px;
   width: 30px;
-  /* border: 2px solid crimson; */
+  padding: 1px;
+  padding-right: 0;
 }
 
 .fa-envelope {
-  /* background-color: grey; */
-  border-radius: 50%;
   text-align: center;
-  align-self: center;
   align-self: end;
   height: 30px;
   width: 30px;
-  /* border: 2px solid crimson; */
+  padding: 1px;
+  padding-right: 0;
 }
 
 .fa-share {
-  /* background-color: grey; */
-  border-radius: 50%;
   text-align: center;
-  align-self: center;
   align-self: end;
   height: 30px;
   width: 30px;
-  /* border: 2px solid crimson; */
+  padding: 1px;
+  padding-right: 0;
 }
 
-.commentCont .textImage {
+#textImage {
   position: absolute;
-  z-index: 999;
   margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 20%;
-  text-align: center;
+  right: 55%;
+  top: 10%;
   width: 20%;
-  /* border: 2px solid crimson; */
 }
 
 .commentCont {
@@ -387,19 +391,6 @@ article {
   text-align: center;
   color: #326891;
   text-decoration: none;
-}
-
-.articlePick {
-  display: flex;
-  flex-direction: column;
-  width: 15%;
-  /* border: 2px solid crimson; */
-  margin-right: 10%;
-  margin-left: 5%;
-  align-content: flex-end;
-  position: relative;
-  top: 250px;
-  height: 30%;
 }
 
 .editorHead {
@@ -447,8 +438,31 @@ article {
   display: flex;
   flex-direction: row;
   /* border: 2px solid crimson; */
-  position: relative;
-  left: 32%;
+  width: 70%;
+  justify-content: center;
+  margin-left: 23.5%;
+}
+
+.articleHead1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+  /* justify-content: center;
+  align-items: center; */
+  /* border: 2px solid greenyellow; */
+}
+
+.articlePick {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  /* border: 2px solid crimson; */
+  /* margin-right: 1%;*/
+  margin-left: 5%;
+  /* align-content: flex-end; */
+  height: 40%;
+  align-self: center;
 }
 
 .professorVideo {
@@ -509,9 +523,9 @@ article {
   flex-direction: row;
   /* align-items: center; */
   /* border: 2px solid crimson; */
-  width: 70%;
+  width: 1200px;
   /* justify-content: center; */
-  margin: 2% 15%;
+  margin: 2% auto;
   justify-content: space-between;
 }
 
@@ -611,8 +625,8 @@ p.spaceHeading {
   flex-direction: column;
   border-top: 2px solid rgb(153, 153, 153);
   border-bottom: 1px solid rgb(153, 153, 153);
-  width: 70%;
-  margin: 0 15%;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footerHead {
@@ -634,7 +648,7 @@ a.pointHome {
 
 .footerContent {
   display: grid;
-  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-template-columns: 15% 15% 15% 15% 15% 20%;
   justify-content: space-between;
   margin-top: 2%;
 }
@@ -656,6 +670,7 @@ a.pointHome {
 .subsItems {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .far {
@@ -666,15 +681,20 @@ a.pointHome {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 20% 2% 20%;
+  margin: 0 auto 3% auto;
   /* border: 2px solid crimson; */
   color: rgb(153, 153, 153);
   font-size: 14px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  width: 1200px;
 }
 
-.footerBottom:hover {
+.text:hover {
   text-decoration: underline;
+}
+
+.text {
+  margin: 8px 0;
 }
 
 .promptFirst {
@@ -710,5 +730,38 @@ a.pointHome {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   z-index: 1;
+  border-top: 2px solid black;
+  font-weight: 400;
   /* border: 2px solid crimson; */
+}
+
+.subsItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* border: 2px solid crimson; */
+  margin-bottom: 5%;
+}
+
+.subsImg {
+  width: 8%;
+  height: 50%;
+  align-self: center;
+  margin-right: 5%;
+}
+
+.fa-newspaper {
+  margin-right: 4%;
+  width: 10%;
+  height: 50%;
+  padding-bottom: 0;
+}
+
+.fa-utensils {
+  margin-right: 6%;
 }
