@@ -141,7 +141,7 @@ section {
 
 .centerImage {
   display: flex;  
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   height: 30%;
@@ -502,4 +502,226 @@ article {
   font-weight: 400;
   font-style: normal;
   width: 55%;
+}
+
+.moreInfo {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* border: 2px solid crimson; */
+  width: 70%;
+  /* justify-content: center; */
+  margin: 2% 15%;
+  justify-content: space-between;
+}
+
+.spaceEditorpicks {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.spaceAstronomy {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.fl {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: space-between;
+  /* border: 2px solid crimson; */
+}
+
+.sl {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaceImg {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid crimson; */
+}
+
+.spaceHeading {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: helvetica, arial, sans-serif;
+  
+}
+
+.spaceHeading:hover {
+  text-decoration: underline;
+}
+
+.imgName {
+  text-align: end;
+  color: rgb(153, 153, 153);
+  line-height: 10px;
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+.imgDesc {
+  margin: 8px 0;
+  color: rgb(18, 18, 18);
+  font-size: 1.125rem;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.date {
+  margin: 4px 0;
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  border-top: 2px solid black;
+}
+
+.headings {
+  border-top: 1px solid rgb(153, 153, 153);
+  /* border-bottom: 1px solid rgb(153, 153, 153); */
+  padding-top: 10px;
+  color: rgb(18, 18, 18);
+  font-size: 1.125rem;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+p.spaceHeading {
+  margin-bottom: 0;
+}
+
+.pageFooter {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgb(153, 153, 153);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  width: 70%;
+  margin: 0 15%;
+  
+}
+
+.footerHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainLogo1 {
+  width: 20%;
+  height: auto;
+}
+
+a.pointHome {
+  color: #567B95;
+  text-decoration: none;
+  margin-top: 2%;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.contentList {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.contentSubs {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(153, 153, 153);
+  padding-left: 10%;
+}
+
+.subsItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.far {
+  padding-bottom: 10%;
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20%;
+  /* border: 2px solid crimson; */
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+}
+
+.footerBottom:hover {
+  text-decoration: underline;
+}
+
+.promptFirst {
+  grid-column: span 2;
+  /* border: 2px solid crimson; */
+  text-align: end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #000;
+  /* width: 40%; */
+}
+
+.promptSecond {
+  /* text-align: center; */
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid crimson; */
+  align-items: center;
+  justify-content: space-around;
+  width: 8%;
+  position: fixed;
+  right: 15%;
+}
+
+/* .navBar {
+  position: fixed;
+  width: 100%;
+  height: 4%;
+  top: 0;
+  /* border: 2px solid crimson; */
+  /* display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  z-index: 1;
+  background-color: white;
+} */
+
+.regPrompt {
+  /* display: grid;
+  grid-template-columns: 30% 30% 30%; */
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  /* border: 2px solid crimson; */
 }
