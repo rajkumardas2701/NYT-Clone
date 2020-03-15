@@ -9,7 +9,6 @@
   width: 100%;
   height: 4%;
   top: 0;
-  /* border: 2px solid crimson; */
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
@@ -17,20 +16,12 @@
   background-color: white;
 }
 
-@media all and (max-width: 1500px)
-
-
 .leftNav {
   display: flex;
-  /* flex-direction: row; */
-  /* position: absolute;
-  left: 10%; */
-  /* background-color: cyan; */
   width: 15%;
   align-items: center;
   justify-content: space-around;
   order: 1;
-  /* border: 2px solid crimson; */
   min-width: 200px;
 }
 
@@ -44,12 +35,9 @@
 .logoNav {
   width: 15%;
   justify-content: center;
-    /* background-color: darkgoldenrod; */
-    /* border: 2px solid crimson; */
   display: flex;
   align-items: center;
   order: 2;
-    /* margin: 5px; */
 }
 
 .mainLogo {
@@ -60,25 +48,22 @@
 }
 
 .rightNav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* position: absolute;
-    right: 10%; */
-    align-items: center;
-    order: 3;
-    /* border: 2px solid crimson; */
-    width: 15%;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  order: 3;
+  width: 15%;
+  justify-content: space-around;
 }
 
 .subscribe {
-  font-family: helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   height: 90%;
   border: 0;
   border-radius: 6px;
-  background-color: #567B95;
-  color: #FFFFF8;
+  background-color: #567b95;
+  color: #fffff8;
   font-weight: 400;
   font-style: normal;
   width: 60%;
@@ -86,34 +71,28 @@
 }
 
 .logIn {
-  font-family: helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   height: 90%;
   border: 0;
   border-radius: 6px;
-  background-color: #567B95;
-  color: #FFFFF8;
+  background-color: #567b95;
+  color: #fffff8;
   font-weight: 400;
   font-style: normal;
   width: 30%;
-  /* max-width: 100px; */
 }
 
 .mainBody {
-  /* display: block; */
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 5%;
-  /* border: 2px solid crimson; */
   width: 100%;
-  /* justify-content: center; */
 }
 
 section {
-  /* margin-top: 0; */
   height: 200px;
-  background-color: #F7F7F7;
-  /* background-color: darkgreen; */
+  background-color: #f7f7f7;
   width: 100%;
   text-align: center;
 }
@@ -126,40 +105,32 @@ section {
 .mainHeading {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  /* justify-content: center; */
-  /* border: 2px solid crimson; */
 }
 
-/* need to change the size of the text with window-size */
 .imgTitle {
   grid-column: 2/3;
-  /* text-align: center; */
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   order: 1;
   line-height: 60px;
   line-height: 40px;
 }
 
 .centerImage {
-  display: flex;  
-  /* justify-content: center; */
+  display: flex;
   align-items: center;
   flex-direction: column;
   height: 30%;
-  /* border: 2px solid crimson; */
 }
 
 .inflation {
   position: relative;
   align-self: center;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   width: 1000px;
-  /* border: 2px solid greenyellow; */
   height: auto;
 }
 
@@ -191,27 +162,21 @@ section {
   height: 15%;
   width: 100%;
   min-width: 600px;
-  /* min-height: 50px; */
-  /* border: 2px solid crimson; */
 }
 
 .secondLine {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* position: relative; */
   position: absolute;
   top: 72%;
   width: 100%;
   min-width: 600px;
-  /* border: 2px solid crimson; */
   height: 15%;
 }
 
 .artEnd {
   width: 10%;
-  /* margin-top: 20px;*/
   margin-bottom: 20px;
-
   height: 1px;
 }
 
@@ -225,7 +190,6 @@ section {
 .infImg {
   width: 100%;
   height: 100%;
-  /* border: 2px solid crimson; */
   min-width: 600px;
 }
 
@@ -234,30 +198,24 @@ section {
   min-width: 145px;
   justify-self: flex-start;
   height: 10vmax;
-  /* min-height: 130px; */
   font-size: 14px;
-  /* background-color: greenyellow; */
-  /* border: 2px solid crimson; */
   flex-wrap: wrap;
 }
 
 .mainImage {
-  /* border: 2px solid crimson; */
   width: 65%;
   height: auto;
-  /* justify-content: center; */
 }
 
 .cIDesc {
   width: 65%;
-  /* border: 2px solid crimson; */
-  color: #666666;
-  font-family: georgia,'times new roman',times,serif;
+  color: #666;
+  font-family: georgia, 'times new roman', times, serif;
   font-size: 100%;
 }
 
 .cIDesc1 {
-  color: #888888;
+  color: #888;
   font-size: 0.8375rem;
 }
 
@@ -266,9 +224,6 @@ section {
   flex-direction: column;
   width: 700px;
   align-self: center;
-  /* justify-content: center;
-  align-items: center; */
-  /* border: 2px solid greenyellow; */
 }
 
 .writerName {
@@ -280,7 +235,6 @@ section {
 .socialDate {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid crimson; */
   align-items: center;
   justify-content: space-between;
 }
@@ -289,16 +243,13 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
-  /* align-items: center; */
   vertical-align: middle;
-  /* border: 2px solid crimson; */
 }
 
-.commentsCount>.social {
+.commentsCount > .social {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
-  /* border: 2px solid crimson; */
   width: 25%;
   align-items: baseline;
 }
@@ -362,11 +313,10 @@ section {
 .commentCont {
   position: relative;
   display: inline-block;
-  /* border: 2px solid crimson; */
 }
 
 article {
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, times, serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-top: 30px;
@@ -421,11 +371,10 @@ article {
 .edList {
   list-style-type: none;
   padding-left: 0;
-  /* margin-bottom: 10px; */
 }
 
 .edDesc {
-  font-family: georgia, "times new roman";
+  font-family: georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -437,7 +386,6 @@ article {
 .editorPick {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid crimson; */
   width: 70%;
   justify-content: center;
   margin-left: 23.5%;
@@ -448,38 +396,27 @@ article {
   flex-direction: column;
   width: 50%;
   align-self: center;
-  /* justify-content: center;
-  align-items: center; */
-  /* border: 2px solid greenyellow; */
 }
 
 .articlePick {
   display: flex;
   flex-direction: column;
   width: 20%;
-  /* border: 2px solid crimson; */
-  /* margin-right: 1%;*/
   margin-left: 5%;
-  /* align-content: flex-end; */
   height: 40%;
   align-self: center;
 }
 
 .professorVideo {
-  width: 100%; 
+  width: 100%;
   height: 400px;
 }
 
 .bicepTel {
-  /* width: 40%; */
   display: flex;
   flex-direction: column;
   width: 40%;
-  
   align-self: center;
-  /* justify-content: center;
-  align-items: center; */
-  /* border: 2px solid crimson; */
 }
 
 .telescope {
@@ -490,7 +427,6 @@ article {
   font-family: helvetica, arial, sans-serif;
   font-size: 12px;
   line-height: 1rem;
-  /* width: calc(100% - 40px); */
   color: rgb(102, 102, 102);
   display: flex;
   flex-direction: row;
@@ -502,17 +438,16 @@ article {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* border: 2px solid crimson; */
   height: 30px;
 }
 
 .readButton {
-  font-family: helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   height: 100%;
   border: 0;
   border-radius: 6px;
-  background-color: #567B95;
-  color: #FFFFF8;
+  background-color: #567b95;
+  color: #fffff8;
   font-weight: 400;
   font-style: normal;
   width: 55%;
@@ -521,10 +456,7 @@ article {
 .moreInfo {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
-  /* border: 2px solid crimson; */
   width: 1200px;
-  /* justify-content: center; */
   margin: 2% auto;
   justify-content: space-between;
 }
@@ -546,7 +478,6 @@ article {
   display: grid;
   grid-template-columns: 32% 32% 32%;
   justify-content: space-between;
-  /* border: 2px solid crimson; */
 }
 
 .sl {
@@ -563,14 +494,12 @@ article {
 .spaceImg {
   width: 100%;
   height: auto;
-  /* border: 2px solid crimson; */
 }
 
 .spaceHeading {
   font-weight: bold;
   font-size: 20px;
   font-family: helvetica, arial, sans-serif;
-  
 }
 
 .spaceHeading:hover {
@@ -608,7 +537,6 @@ article {
 
 .headings {
   border-top: 1px solid rgb(153, 153, 153);
-  /* border-bottom: 1px solid rgb(153, 153, 153); */
   padding-top: 10px;
   color: rgb(18, 18, 18);
   font-size: 1.125rem;
@@ -641,7 +569,7 @@ p.spaceHeading {
 }
 
 a.pointHome {
-  color: #567B95;
+  color: #567b95;
   text-decoration: none;
   margin-top: 2%;
 }
@@ -667,12 +595,6 @@ a.pointHome {
   padding-left: 10%;
 }
 
-.subsItems {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .far {
   padding-bottom: 10%;
 }
@@ -682,37 +604,31 @@ a.pointHome {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto 3% auto;
-  /* border: 2px solid crimson; */
   color: rgb(153, 153, 153);
   font-size: 14px;
-  /* flex-wrap: wrap; */
   width: 1200px;
-}
-
-.text:hover {
-  text-decoration: underline;
 }
 
 .text {
   margin: 8px 0;
 }
 
+.text:hover {
+  text-decoration: underline;
+}
+
 .promptFirst {
   grid-column: span 2;
-  /* border: 2px solid crimson; */
   text-align: end;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: #000;
-  /* width: 40%; */
 }
 
 .promptSecond {
-  /* text-align: center; */
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  /* border: 2px solid crimson; */
   align-items: center;
   justify-content: space-around;
   width: 8%;
@@ -732,7 +648,6 @@ a.pointHome {
   z-index: 1;
   border-top: 2px solid black;
   font-weight: 400;
-  /* border: 2px solid crimson; */
 }
 
 .subsItems {
@@ -743,8 +658,6 @@ a.pointHome {
 .item1 {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
-  /* border: 2px solid crimson; */
   margin-bottom: 5%;
 }
 
