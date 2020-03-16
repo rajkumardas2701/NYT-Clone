@@ -2,7 +2,7 @@
 This website is built referring New York Times to understand Positioning and Floating elements
 
 # Screenshot
-<img width="960" alt="Screenshot 2020-02-28 16 42 07" src="https://github.com/rajkumardas2701/NYT-Clone/blob/feature/img/screenshot.png">
+<img width="960" alt="Screenshot 2020-02-28 16 42 07" src="https://github.com/rajkumardas2701/NYT-Clone/blob/master/img/screenshot.png">
 
 # Built with
 1. HTML
