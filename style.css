@@ -7,7 +7,7 @@
 .navBar {
   position: fixed;
   width: 100%;
-  height: 4%;
+  height: 5%;
   top: 0;
   display: flex;
   justify-content: space-around;
@@ -33,7 +33,7 @@
 }
 
 .logoNav {
-  width: 15%;
+  width: 20%;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -41,9 +41,10 @@
 }
 
 .mainLogo {
-  width: 90%;
-  justify-content: center;
-  height: 80%;
+  width: 80%;
+  justify-self: center;
+  height: 40px;
+  vertical-align: middle;
   min-width: 200px;
 }
 
@@ -152,6 +153,10 @@ section {
   font-family: georgia, serif;
   color: #666;
   margin-bottom: 20px;
+}
+
+.professorVideo {
+  border: 0;
 }
 
 .firstLine {
@@ -381,6 +386,11 @@ article {
   width: 100%;
   color: rgb(51, 51, 51);
   margin-left: 10px;
+  text-decoration: none;
+}
+
+.edDesc:hover {
+  text-decoration: underline;
 }
 
 .editorPick {
@@ -401,7 +411,7 @@ article {
 .articlePick {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 15%;
   margin-left: 5%;
   height: 40%;
   align-self: center;
@@ -500,10 +510,19 @@ article {
   font-weight: bold;
   font-size: 20px;
   font-family: helvetica, arial, sans-serif;
+  text-decoration: none;
+  margin: 2% 0;
 }
 
 .spaceHeading:hover {
   text-decoration: underline;
+}
+
+.spaceHeading1 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2% 0;
 }
 
 .imgName {
@@ -512,14 +531,16 @@ article {
   line-height: 10px;
   margin: 8px 0;
   font-size: 12px;
+  text-decoration: none;
 }
 
 .imgDesc {
-  margin: 8px 0;
+  margin: 6px 0;
   color: rgb(18, 18, 18);
   font-size: 1.125rem;
   line-height: 22px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .date {
@@ -528,27 +549,35 @@ article {
   font-size: 14px;
 }
 
+.newspop {
+  display: flex;
+  flex-direction: column;
+}
+
 .popular {
   display: flex;
   flex-direction: column;
   width: 28%;
   border-top: 2px solid black;
+  padding: 1% 0;
 }
 
 .headings {
   border-top: 1px solid rgb(153, 153, 153);
-  padding-top: 10px;
+  padding: 10px 0;
+  margin: 5px 0;
   color: rgb(18, 18, 18);
   font-size: 1.125rem;
   line-height: 22px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 p.spaceHeading {
   margin-bottom: 0;
 }
 
-.pageFooter {
+footer {
   display: flex;
   flex-direction: column;
   border-top: 2px solid rgb(153, 153, 153);
@@ -561,11 +590,7 @@ p.spaceHeading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.mainLogo1 {
-  width: 20%;
-  height: auto;
+  margin: 10px 0 0 0;
 }
 
 a.pointHome {
@@ -603,18 +628,24 @@ a.pointHome {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto 3% auto;
+  margin: 1% auto 3% auto;
   color: rgb(153, 153, 153);
   font-size: 14px;
   width: 1200px;
 }
 
 .text {
-  margin: 8px 0;
+  margin: 2px 0;
+  text-decoration: none;
+  color: #000;
 }
 
 .text:hover {
   text-decoration: underline;
+}
+
+.subsother.text {
+  font-size: 10px;
 }
 
 .promptFirst {
@@ -623,6 +654,7 @@ a.pointHome {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: #000;
+  text-decoration: none;
 }
 
 .promptSecond {
@@ -648,6 +680,8 @@ a.pointHome {
   z-index: 1;
   border-top: 2px solid black;
   font-weight: 400;
+  align-items: center;
+  text-decoration: none;
 }
 
 .subsItems {
@@ -658,7 +692,7 @@ a.pointHome {
 .item1 {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .subsImg {
