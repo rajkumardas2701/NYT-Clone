@@ -20,7 +20,7 @@ A browser of your choice preferrably Chrome.
 <strong>Prerequisites:</strong><br>
 Fork this project to your local machine
 
-<strong>Author:</strong><br><br>
+# Author
 🤵 Rajkumar Das<br><br> 
    Github: @rajkumardas2701 <br>
    Twitter: @Rajkuma58621299 <br>
