@@ -24,7 +24,7 @@ Fork this project to your local machine
 🤵 Rajkumar Das<br><br> 
    Github: @rajkumardas2701 <br>
    Twitter: @Rajkuma58621299 <br>
-   Linkedin: <a href="https://www.linkedin.com/in/rajkumar-das-41308961">LnkedIn</a>
+   Linkedin: <a href="https://www.linkedin.com/in/rajkumar-das-41308961">LinkedIn</a>
 
 # Show your support
 Give a ⭐️ if you like this project!
